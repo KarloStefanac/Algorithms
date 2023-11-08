@@ -1,0 +1,31 @@
+ol{
+    border: 2px solid black;
+    width: 250px;
+    padding: 5px;
+    list-style-position: inside;
+}
+li{
+    padding: 3px;
+    padding-left: 34px;
+    margin-bottom: 5px;
+}
+li:last-child{
+    margin-bottom: 0px;
+}
+li.en-GB{
+    background: url("images/en-GB.png") 5px center repeat rgba(0, 255, 0, 0.25);
+}
+li.de{
+    background: url("images/de.png") 5px center no-repeat rgba(255, 0, 0, 0.75);
+}
+li.es{
+    background: url("images/es.png") 5px center no-repeat rgba(0, 0, 255, 0.50);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
